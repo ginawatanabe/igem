@@ -1,0 +1,98 @@
+#triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 800px solid rgb(50, 50, 50);
+  border-left: calc(100vw) solid transparent;
+  z-index: -1;
+}
+#abstract {
+  width: 100%;
+  height: 800px;
+  background-color: white;
+  position: absolute;
+  top: 2600px;
+}
+#abstract h1 {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 3px;
+  color: rgb(50,50,50);
+  text-align: center;
+  font-size: 50px;
+  padding: 0px;
+  margin-top: 100px;
+}
+#abstract p {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  line-height: 1.5;
+}
+#project-intro {
+  width: 500px;
+  height: 400px;
+  margin-left: 100px;
+  margin-top: 30px;
+  color: rgb(50,50,50);
+}
+#project-section1 {
+  width: 500px;
+  position: absolute;
+  right: 0px;
+  text-align: right;
+  margin-right: 100px;
+}
+#project-section2 {
+  width: 500px;
+  position: absolute;
+  left: 0px;
+  margin-left: 100px;
+  margin-top: 850px;
+}
+#project-section3 {
+  width: 600px;
+  position: absolute;
+  right: 0px;
+  margin-right: 100px;
+  margin-top: 1500px;
+  text-align: right;
+}
+.project-section h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  letter-spacing: 3px;
+}
+.project-section h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-style: italic;
+}
+.project-section p, .project-section a {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  padding: 0px;
+  line-height: 1.5;
+}
+.project-section a {
+  padding-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
+.project-section-w, .project-section-w a  {
+  color: white;
+}
+.project-section-b {
+  color: rgb(50,50,50);
+}
+#spacer-1 {
+  width: 100%;
+  height: 370px;
+}
+#spacer-2 {
+  width: 100%;
+  height: 2500px;
+  background-color: rgb(50,50,50);
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,24 @@
+body {
+  margin: 0px;
+}
+#container {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+}
+.general{
+  width: 10px;
+  height:10px;
+}
+.Astyle{
+  background-color: red;
+}
+.Gstyle{
+  background-color: blue;
+}
+.Cstyle{
+  background-color: yellow;
+}
+.Tstyle{
+  background-color: green;
+}

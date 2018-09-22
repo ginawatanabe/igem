@@ -1,0 +1,46 @@
+.human-banner {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(30,30,30);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.human-circle {
+  width: 900px;
+  height: 450px;
+  border-radius: 900px 900px 0 0;
+  background-color: white;
+  position: absolute;
+  top: 90px;
+  left: -60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+}
+.human-circle h1 {
+  font-family: 'Oswald',sans-serif;
+  font-size: 80px;
+  color: rgb(50,50,50);
+  letter-spacing: 3px;
+  margin-left: 160px;
+  margin-top: 150px;
+}
+#p1 {
+  margin-top: 100px;
+}
+.human-section1 p {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  line-height: 1.5;
+}
+.human-section1 h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  color: rgb(50,50,50);
+  margin-left: 100px;
+}

@@ -1,19 +1,17 @@
 #team-section1 {
   width: 100%;
   height: 400px;
-  background-color: rgb(50,50,50);
+  background-color: rgb(30,30,30);
 }
 #team-section2 {
   width: 100%;
   height: auto;
-  /* background-color: grey; */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 #team-section2-inner {
   width: 80%;
-  /* background-color: pink; */
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -28,8 +26,6 @@
 }
 #members1 {
   width: 100%;
-  /* height: 300px;; */
-  /* background-color: purple; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
